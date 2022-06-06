@@ -1,5 +1,6 @@
 import requests
-clear
+
+sys(clear)
 
 from requests.structures import CaseInsensitiveDict
 print("\033[H\033[J")
