@@ -33,5 +33,5 @@ data = "phone="+number
 
 
 for i in range(amount):
-    resp = requests.post(url, headers, data=data)
+    resp = requests.post(url, headers=headers, data=data)
     print(str(i+1)+"SMS SENT")
