@@ -19,7 +19,7 @@ print("""
   """)
 
 
-fegalt"ASB"
+sys(fegalt"ASB")
 
                                                         
 number=str(input("Enter Terget Number:+88 "))
