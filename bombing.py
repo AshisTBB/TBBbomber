@@ -1,4 +1,6 @@
 import requests
+clear
+
 from requests.structures import CaseInsensitiveDict
 print("\033[H\033[J")
 print("""
@@ -9,9 +11,7 @@ print("""
          TÊÃM BLÅÇK BËRRY
          Created by: ÅSB ÃSHÏS BÎSWÅS
                     TBB C_O
-figlet"ASB"
-  
-  Creator: Asb Ashis Biswas
+                     
   Facebook : https://www.facebook.com/profile.php?id=100074238783251
  
 
